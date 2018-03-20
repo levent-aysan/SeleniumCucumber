@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "cucumber setup okay",
+        "description": "",
+        "id": "to-test-my-cucumber-test-is-running;cucumber-setup-okay",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "my feature file is ready",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I run the feature file",
+            "match": {
+              "location": "Login.whenStatement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "run should be successful",
+            "match": {
+              "location": "Login.thenStatment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test my cucumber test is running",
+    "description": "I want to run a sample feature file.",
+    "id": "to-test-my-cucumber-test-is-running",
+    "keyword": "Feature",
+    "uri": "C:/Downloads/selenCumber201803/src/test/resources/java/interviewMegi/Login.feature"
+  }
+]

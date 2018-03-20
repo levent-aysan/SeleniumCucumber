@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="To test my cucumber test is running" name="cucumber setup okay" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given my feature file is ready..............................................undefined
+When I run the feature file.................................................skipped
+Then run should be successful...............................................skipped
+]]></failure>
+</testcase>
+</testsuite>
